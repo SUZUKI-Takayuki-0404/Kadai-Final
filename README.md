@@ -3,13 +3,8 @@
 [課題10](https://github.com/SUZUKI-Takayuki-0404/Kadai10th)の成果物をAWSにデプロイし動作確認する
 
 ## 実施事項
-- VPC/EC2の設定
 
-  [チューリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)を基に設定
-
-- RDSの設定
-
-
+VPC/EC2は[チューリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)を基に設定
 
 ### VPCの設定詳細
 
@@ -27,11 +22,11 @@
 
 
 
-### Elastic IPの設定
+### Elastic IPの設定詳細
 
 
 
-### 動作確認
+### 動作確認詳細
 
 
 
