@@ -81,7 +81,7 @@
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/822be25e-2261-45f5-b6ec-be2ca4e152a2" width="60%"> <br>
    <br>VPC設定で作成したものを追加<br>
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/4f1af245-7127-4e75-b751-c741aebc53e4" width="60%"> <br>
-   <br>ポート番号はセキュリティ設定と同じ3306<br>
+   <br>ポート番号はセキュリティグループと同じ3306<br>
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/2e479568-2880-4882-bdd2-6188389acf9f" width="60%"> <br>
    <br>データベース名を設定<br>
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/90a81ba4-616b-46b4-ba86-36fea027b401" width="60%"> <br>
