@@ -149,12 +149,12 @@
 
    - [課題10](https://github.com/SUZUKI-Takayuki-0404/Kadai10th)のテーブル（Docker使用時にテーブル初期データとして読み込ませているもの）はsqlフォルダ内に格納
    
-   - RDSのデータベースにアクセスして登録
+   - RDSのデータベースにアクセスし、以下コマンドで登録
      ```
      SOURCE テーブルのファイル名.sql
      ```
      <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/e177b76f-b78d-4f26-ae29-7cb401711cbe" width="60%"> <br>
-     <br>登録できているかを確認後、データベースへのアクセスを終了する
+     <br>登録できているか以下コマンドで確認後、データベースへのアクセスを終了
      ```
      show tables;
      select * from テーブル名
