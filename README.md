@@ -143,7 +143,7 @@
    詳細は[チュートリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
 
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/06ef7840-bf42-4de2-a623-00afc2c7c571" width="60%"> <br>
-   <br>やり直しの為ディレクトリ削除する場合は以下コマンド
+   <br>やり直しの為、ディレクトリを削除する場合は以下コマンド
    ```
    rm -r ディレクトリ名
    ```
