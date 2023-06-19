@@ -122,6 +122,9 @@
 
    RDSのアクセスポイント、ポート番号、データベース名、ユーザー名/パスワードを設定<br>
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/6b00e16e-dfa9-4540-a995-ed3f79b576e7" width="60%"> <br>
+   ```
+   spring.datasource.url=jdbc:mysql://RDSアクセスポイント:ポート番号/データベース名?characterEncoding=UTF-8&serverTimezone=Asia/Tokyo
+   ```
 
 ### 5.2.javaのインストール
 　
