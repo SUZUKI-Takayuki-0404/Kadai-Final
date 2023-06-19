@@ -176,19 +176,49 @@
 
 ### 5.7.ブラウザから接続確認
 
+   httpリクエストに対するレスポンス例<br>
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/43192d77-f268-40a9-969e-d540594ddb89" width="60%"> <br>
    <br>
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/433a7e3e-a149-4cd0-b8b6-740c51708a76" width="60%"> <br>
+   <br>（参考）RDSでテストメソッド実行<br>
+   <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/4322451d-6e9d-4ad8-b022-ef18abd9ad85" width="60%"> <br>
 
 ## 6.Elastic IPの設定
 
+### 6.1.設定画面
+
+<img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/3da11567-51c0-4f95-8896-2dadf58f53fa" width="60%"> <br>
+<br>
+<img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/bc98300e-03b7-4792-a5d5-0792a16c8bb0" width="60%"> <br>
+<br>
+<img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/ae08d76d-5106-43bc-9de8-49bcedab628c" width="60%"> <br>
+
+### 6.2.Elastic IPをEC2に関連付け
+
+<img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/458def9e-2150-4fdf-846e-341c315c9d28" width="60%"> <br>
+<br>
+<img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/04752997-7867-4b82-9318-4ec2c144f707" width="60%"> <br>
+<br>
+<img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/0d92f5ea-7f93-4f57-b97e-a09018eedcb2" width="60%"> <br>
+
+### 6.2.Elastic IP経由でEC2にアクセスし動作確認
+
+ブラウザからElastic IPアドレスを使用しアクセス<br>
+<img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/99452cca-8bfb-48de-8753-95d12f2a03cb" width="60%"> <br>
 
 ## 7.接続確認終了後の後始末
 
-- EC2/RDSを停止
+### 7.1.Elastic IPの関連付け解除と解放
 
-- EC2/RDS/Elastic IPを削除
+- Elastic IPとEC2の関連付けを解除
+  
+  <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/369b78ec-cb09-4882-8646-cb25109b9968" width="60%"> <br>
+  
+- Elastic IPの削除
+  
+  <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/91f49f23-62ef-4213-8063-8b820db3c9c7" width="60%"> <br>
 
- 
-<br>
-<img src="" width="60%"> <br>
+### 7.2.EC2/RDSの停止
+### 7.3.EC2/RDSの削除
+
+以 上
