@@ -126,7 +126,7 @@
    spring.datasource.url=jdbc:mysql://RDSアクセスポイント:ポート番号/データベース名?characterEncoding=UTF-8&serverTimezone=Asia/Tokyo
    ```
 
-### 5.2.javaのインストール
+### 5.2.Javaのインストール
 　
    詳細は[チュートリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
 
