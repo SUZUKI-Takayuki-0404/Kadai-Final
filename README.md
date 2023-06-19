@@ -129,7 +129,7 @@
 
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/0c09b577-a2eb-4a61-bf91-7ad453619c0f" width="60%"> <br>
 
-### 5.3.gitのインストール
+### 5.3.Gitのインストール
 
    詳細は[チュートリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
 
@@ -140,12 +140,12 @@
    詳細は[チュートリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
 
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/06ef7840-bf42-4de2-a623-00afc2c7c571" width="60%"> <br>
-   <br>やり直しの為ディレクトリ削除する場合
+   <br>やり直しの為ディレクトリ削除する場合は以下コマンド
    ```
    rm -r ディレクトリ名
    ```
 
-### 5.5.sqlファイルをデータベースに登録
+### 5.5.SQLファイルをデータベースに登録
 
    - [課題10](https://github.com/SUZUKI-Takayuki-0404/Kadai10th)のテーブル（Docker使用時にテーブル初期データとして読み込ませているもの）はsqlフォルダ内に格納
    
