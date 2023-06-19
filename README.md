@@ -48,7 +48,7 @@
 
      <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/25f7ce7a-ed68-4619-a3a6-ca19ae6a6ab5" width="80%">
 
-   - Ubuntuにunzipを事前インストールのうえ、[AWS CLI](https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/cli-chap-getting-started.html) Linux用をUbuntuにインストール
+   - Ubuntuにunzipを以下コマンドでインストールした上で、[AWS CLI](https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/cli-chap-getting-started.html) Linux用をUbuntuにインストール
      ```
      sudo apt-get install zip unzip
      ```
