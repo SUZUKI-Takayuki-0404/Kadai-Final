@@ -1,0 +1,7 @@
+{
+  "path": "/prefectures/01",
+  "error": "Conflict",
+  "message": "01 : This code is in use",
+  "timestamp": "",
+  "status": "409"
+}
