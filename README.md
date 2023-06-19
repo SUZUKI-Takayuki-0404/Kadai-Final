@@ -2,23 +2,21 @@
 
 [課題10](https://github.com/SUZUKI-Takayuki-0404/Kadai10th)の成果物をAWSにデプロイし動作確認する
 
-## 実施事項
-
-### 1.VPCの設定
+## 1.VPCの設定
 
 詳細は[チューリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
 
-#### 1.1.設定画面
+### 1.1.設定画面
 
   <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/1dca0eb7-e950-4c2e-bc76-133ac1c6a7f5" width="60%"> <br>
   <br>
   <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/f6487d3e-4932-4d72-8212-5060fe1970b0" width="60%"> <br>
 
-### 2.EC2の設定
+## 2.EC2の設定
 
 詳細は[チューリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
 
-#### 2.1.設定画面
+### 2.1.設定画面
 
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/0fa6a077-ae67-43c9-b9ce-67581e54d8be" width="60%"> <br>
    <br>
@@ -27,7 +25,7 @@
    VPC設定で作成したものを追加<br>
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/4e0ae913-4739-40e4-9d14-fa5ac3f40264" width="60%"> <br>
 
-#### 2.2.セキュリティグループの設定
+### 2.2.セキュリティグループの設定
 
    セキュリティグループの設定で、任意の場所とMYSQL/Aurora追加<br>
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/21a0ccaf-1228-42b6-88bd-47a53d897bcb" width="60%"> <br>
@@ -36,11 +34,11 @@
    <br>
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/6bca8896-3afe-452c-b09f-1196f7ca8569" width="60%"> <br>
 
-#### 2.3.接続確認
+### 2.3.接続確認
 
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/0c7a5014-bfe4-45aa-b784-21797ff0f783" width="60%"> <br>
  
-#### 2.3.AWS CLIのインストール
+### 2.4.AWS CLIのインストール
 
    以降のコマンドライン作業をUbuntu（Linux）で実施
   
@@ -55,11 +53,11 @@
      sudo apt-get install zip unzip
      ```
 
-#### 2.4.pemファイルを使いSSH接続
+### 2.5.pemファイルを使いSSH接続
 
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/78a7ee1c-4573-4009-9dda-55e38ddc9788" width="60%"> <br>
 
-#### 2.4.mysqlのインストール
+### 2.6.mysqlのインストール
 
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/3e6438f4-c5a8-4546-acb2-ac2fb8178fe6" width="60%"> <br>
    <br>EC2アクセス終了
@@ -67,9 +65,9 @@
    exit
    ```
 
-### 3.RDSの設定
+## 3.RDSの設定
 
-#### 3.1.設定画面
+### 3.1.設定画面
  
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/6d26e9c6-926a-46fb-88db-8f2be731cc28" width="60%"> <br>
    <br>
@@ -89,14 +87,14 @@
    <br>
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/2c3edd6b-f9ec-464a-8bc8-1932d9eb6cb1" width="60%"> <br>
 
-#### 3.2.セキュリティグループの設定
+### 3.2.セキュリティグループの設定
 
    EC2設定時にあわせて設定したものを追加<br>
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/f5363c90-aeff-4f0a-8527-06a6297b0fa4" width="60%"> <br>
 
-### 4.EC2からRDSへの接続確認
+## 4.EC2からRDSへの接続確認
 
-#### 4.1.接続確認
+### 4.1.接続確認
 
    EC2接続後にmysqlにアクセス（以下コマンド入力後にパスワード入力）
    ```
@@ -115,32 +113,36 @@
    quit
    ```
 
-### 5.Spring BootアプリのEC2導入
+## 5.Spring BootアプリのEC2導入
 
-#### 5.1.resourceフォルダのpropertiesファイルの設定
+### 5.1.application.propertiesの設定
 
    RDSのアクセスポイント、ポート番号、データベース名、ユーザー名/パスワードを設定<br>
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/6b00e16e-dfa9-4540-a995-ed3f79b576e7" width="60%"> <br>
 
-#### 5.2.javaのインストール
+### 5.2.javaのインストール
 　
    詳細は[チューリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
 
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/0c09b577-a2eb-4a61-bf91-7ad453619c0f" width="60%"> <br>
 
-#### 5.3.gitのインストール
+### 5.3.gitのインストール
 
    詳細は[チューリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
 
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/d106491c-42c0-48d1-99ab-baf91f4f0104" width="60%"> <br>
 　
- - GitHubからダウンロード
+### 5.4.GitHubからアプリケーションのダウンロード
 　
    詳細は[チューリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
 
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/06ef7840-bf42-4de2-a623-00afc2c7c571" width="60%"> <br>
+   <br>やり直しの為ディレクトリ削除する場合
+   ```
+   rm -r ディレクトリ名
+   ```
 
- - sqlファイルをデータベースに登録
+### 5.5.sqlファイルをデータベースに登録
 
    - [課題10](https://github.com/SUZUKI-Takayuki-0404/Kadai10th)のテーブル（Dockerに読み込ませたもの）はsqlフォルダ内に格納
    
@@ -158,7 +160,7 @@
      <br>
      <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/a6e4e27f-a017-4ae4-b4ce-288020bb23a5" width="60%"> <br>
 
- - Spring Bootの起動
+### 5.6.Spring Bootの起動
 
    詳細は[チューリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
 
@@ -169,17 +171,20 @@
    ```
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/d279748c-37ad-4757-86ee-4d19a8000369" width="60%"> <br>
 
- - ブラウザから接続確認
+### 5.7.ブラウザから接続確認
 
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/43192d77-f268-40a9-969e-d540594ddb89" width="60%"> <br>
    <br>
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/433a7e3e-a149-4cd0-b8b6-740c51708a76" width="60%"> <br>
 
-### 6.Elastic IPの設定
+## 6.Elastic IPの設定
 
-### 7.接続確認終了後の後始末
 
- - 全て停止させ削除
+## 7.接続確認終了後の後始末
+
+- EC2/RDSを停止
+
+- EC2/RDS/Elastic IPを削除
 
  
 <br>
