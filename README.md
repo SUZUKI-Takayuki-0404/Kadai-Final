@@ -6,13 +6,48 @@
 
 ### 1.VPCの設定
 
-- VPC/EC2は[チューリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)を基に設定
+- VPC/EC2は[チューリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
 
 - 画像でフロー紹介
 
+<img src="" width="60%">
+
+<img src="" width="60%">
+
+<img src="" width="60%">
+
+<img src="" width="60%">
+
+<img src="" width="60%">
+
+<img src="" width="60%">
+
+<img src="" width="60%">
+
+<img src="" width="60%">
+
+
 ### 2.EC2の設定
 
- - チュートリアル参照、画像でフロー紹介
+ - [チューリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
+
+ - 画像でフロー紹介
+<img src="" width="60%">
+
+<img src="" width="60%">
+
+<img src="" width="60%">
+
+<img src="" width="60%">
+
+<img src="" width="60%">
+
+<img src="" width="60%">
+
+<img src="" width="60%">
+
+<img src="" width="60%">
+
 
  - 補足事項：Windows PC特記事項
 
@@ -42,15 +77,38 @@
 　
  - javaのインストール
 　
-   - チュートリアル参照、画像でフロー紹介
+   - [チューリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
+
+   - 画像でフロー紹介
+
+<img src="" width="60%">
+
+<img src="" width="60%">
+
+<img src="" width="60%">
+
+<img src="" width="60%">
+
+<img src="" width="60%">
+
+<img src="" width="60%">
+
+<img src="" width="60%">
+
+<img src="" width="60%">
+
 　
  - gitのインストール
 　
-   - チュートリアル参照、画像でフロー紹介
+   - [チューリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
+
+   - 画像でフロー紹介
 　
  - GitHubからダウンロード
 　
-   - チュートリアル参照、画像でフロー紹介
+   - [チューリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
+
+   - 画像でフロー紹介
 
  - sqlファイルをデータベースに登録
 　　
@@ -58,7 +116,7 @@
 　
  - Spring Bootの起動
 
-   - チュートリアル参照
+   - [チューリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
 
    - 画像でフロー紹介
 
