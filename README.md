@@ -57,8 +57,11 @@
 
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/78a7ee1c-4573-4009-9dda-55e38ddc9788" width="60%"> <br>
 
-### 2.6.mysqlのインストール
+### 2.6.Mysqlのインストール
 
+   ```
+   sudo yum install mysql
+   ```
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/3e6438f4-c5a8-4546-acb2-ac2fb8178fe6" width="60%"> <br>
    <br>EC2アクセス終了
    ```
