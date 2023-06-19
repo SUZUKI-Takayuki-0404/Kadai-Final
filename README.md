@@ -4,7 +4,7 @@
 
 ## 1.VPCの設定
 
-詳細は[チューリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
+詳細は[チュートリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
 
 ### 1.1.設定画面
 
@@ -14,7 +14,7 @@
 
 ## 2.EC2の設定
 
-詳細は[チューリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
+詳細は[チュートリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
 
 ### 2.1.設定画面
 
@@ -57,7 +57,7 @@
 
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/78a7ee1c-4573-4009-9dda-55e38ddc9788" width="60%"> <br>
 
-### 2.6.Mysqlのインストール
+### 2.6.MySQLのインストール
 
    ```
    sudo yum install mysql
@@ -99,7 +99,7 @@
 
 ### 4.1.接続確認
 
-   EC2接続後にmysqlにアクセス（以下コマンド入力後にパスワード入力）
+   EC2接続後にMySQLにアクセス（以下コマンド入力後にパスワード入力）
    ```
    mysql -h データベースのアクセスポイント -P ポート番号 -u user –p
    ```
@@ -125,19 +125,19 @@
 
 ### 5.2.javaのインストール
 　
-   詳細は[チューリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
+   詳細は[チュートリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
 
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/0c09b577-a2eb-4a61-bf91-7ad453619c0f" width="60%"> <br>
 
 ### 5.3.gitのインストール
 
-   詳細は[チューリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
+   詳細は[チュートリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
 
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/d106491c-42c0-48d1-99ab-baf91f4f0104" width="60%"> <br>
 　
 ### 5.4.GitHubからアプリケーションのダウンロード
 　
-   詳細は[チューリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
+   詳細は[チュートリアル](https://github.com/raisetech-for-student/tutorial-aws-deploy-simple-java-app-to-ec2)参照
 
    <img src="https://github.com/SUZUKI-Takayuki-0404/Kadai-Final/assets/113277395/06ef7840-bf42-4de2-a623-00afc2c7c571" width="60%"> <br>
    <br>やり直しの為ディレクトリ削除する場合
@@ -147,7 +147,7 @@
 
 ### 5.5.sqlファイルをデータベースに登録
 
-   - [課題10](https://github.com/SUZUKI-Takayuki-0404/Kadai10th)のテーブル（Dockerに読み込ませたもの）はsqlフォルダ内に格納
+   - [課題10](https://github.com/SUZUKI-Takayuki-0404/Kadai10th)のテーブル（Docker使用時にテーブル初期データとして読み込ませているもの）はsqlフォルダ内に格納
    
    - RDSのデータベースにアクセスして登録
      ```
